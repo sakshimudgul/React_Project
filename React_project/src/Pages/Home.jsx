@@ -40,7 +40,7 @@ function Home() {
         </div>
       </div>
 
-      <div className="bg-gray-100  pb-500 ">
+      <div className="bg-gray-100  pb-100 ">
         <h1 className="flex justify-center pt-40 font-bold text-4xl">
           Crafting Elegance Since 2012
         </h1>
@@ -54,7 +54,49 @@ function Home() {
           <b>Precision-engineered,weather-resistant </b> entrance solution that
           combines asethetic appeal with upcompromising security.
         </p>
+
+        <section className='flex align-row'>
+          <div className="bg-white h-60 w-50 m-8 border border-gray-300 rounded-xl shadow-md  ">
+            <h1 className='font-black text-3xl flex align-baseline'>13+</h1>
+            <p className="text-gray-500">Years of Excellence</p>
+          </div>
+          <div className='bg-white h-60 w-50 m-8 border border-gray-300 rounded-xl shadow-md'>
+            <h1 className='font-black text-3xl'>135+</h1>
+            <p className="text-gray-500">Contractor</p>
+          </div>
+          <div  className='bg-white h-60 w-50 m-8 border border-gray-300 rounded-xl shadow-md'>
+            <h1 className='font-black text-3xl'>56+</h1>
+            <p className="text-gray-500">Architecture</p>
+          </div>
+          <div  className='bg-white h-60 w-50 m-8 border border-gray-300 rounded-xl shadow-md'>
+            <h1 className='font-black text-3xl'>22,500+</h1>
+            <p className="text-gray-500">Doors Installed</p>
+          </div>
+          <div  className='bg-white h-60 w-50 m-8 border border-gray-300 rounded-xl shadow-md'> 
+            <h1 className='font-black text-3xl'>100+</h1>
+            <p className="text-gray-500">Door Design</p>
+          </div>
+          <div  className='bg-white h-60 w-50 m-8 border border-gray-300 rounded-xl shadow-md'>
+            <h1 className='font-black text-3xl'>85+</h1>
+            <p className="text-gray-500">Builders</p>
+          </div>
+
+        </section>
+       
       </div>
+       <section className="pt-20">
+          <div>
+            <h1 className="font-bold text-4xl flex justify-center pb-10">Our Products Range</h1>
+            <p className='flex justify-center pb-5'>Explore premium doors, and security solutions for modern India homes</p>
+            <div className="gap-5 flex justify-center ">
+              
+              <button className='bg-green-500   px-25 py-2 rounded-2xl text-white '>All Categories</button>
+            </div>
+
+            
+            
+          </div>
+        </section>
     </div>
   );
 }
